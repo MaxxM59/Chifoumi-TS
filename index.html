@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chifoumi</title>
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="header_container">
+        <h1>Welcome to the chifoumi mate !</h1>
+        <br />
+        <h2>What will you choose ?</h2>
+      </div>
+      <div class="choices_container">
+        <form>  <fieldset>
+          <div>
+            <h2>Scissor</h2>
+            <input type="radio" name="choice" id="scissor" value="scissor" checked />
+            <label for="scissor"> <img src="./assets/img/scissor.png" /></label>
+          </div>
+          <div>
+            <h2>Leef</h2>
+            <input type="radio" name="choice" id="leef" value="leef" />
+            <label for="leef"> <img src="./assets/img/leef.jpg" /></label>
+          </div>
+          <div>
+            <h2>Rock</h2>
+            <input type="radio" name="choice" id="rock" value="rock" />
+            <label for="rock"> <img src="./assets/img/rock.jfif" /></label>
+          </div>
+        </fieldset></form>
+      
+      </div>
+      <div class="buttons_container">
+        <button type="button" class="run_button" onclick="run()">Run</button>
+      </div>
+      <div class="result_container"></div>
+    </div>
+  </body>
+  <script src="dist/index.js"></script>
+</html>

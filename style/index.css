@@ -1,0 +1,24 @@
+fieldset {display: flex ; flex-direction: row;justify-content: center;}
+
+.main_container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+padding:5%
+}
+.choices_container {
+  padding-top : 25px;
+  padding-bottom: 25px;
+}
+img {
+    width : 200px;
+    height:200px;
+margin-right:25px;
+margin-left:25px;
+}
+.run_button{ border-radius: 20px;background-color: blanchedalmond ; width:  180px;}
+/* If time to handle a select :hover
+[type=radio] {
+    display: none;
+}
+*/
